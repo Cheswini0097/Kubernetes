@@ -4,7 +4,7 @@ storage:50GB
 
 # Resize EBS Storage
 
-check the partitions
+CHECCK THE PARTITIONS
 ```
 lsblk
 ```
@@ -67,7 +67,7 @@ Check Kubectl version
 kubectl version
 ```
 
-Install eksctl 
+INSTALL EKSCTL
 
 ```
 
