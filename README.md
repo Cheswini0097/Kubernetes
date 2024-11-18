@@ -34,10 +34,7 @@ For the /var filesystem:
 
 ```
 sudo xfs_growfs /var
-``
-
-
-
+```
 # INSTALL DOCKER kUBECTL EKSCTL FOR CLUSTER SET-UP
 
 INSTALL DOCKER
