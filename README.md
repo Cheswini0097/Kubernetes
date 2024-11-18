@@ -89,6 +89,10 @@ EXTRACT THE FILES.
 tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
 ```
 
+MOVE THE FILES FOR LOCAL BIN TO GET ACCES FOR EVERYONE
+
+```
+
 sudo mv /tmp/eksctl /usr/local/bin
 ```
 
