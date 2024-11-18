@@ -58,7 +58,7 @@ chmod +x ./kubectl
 Move kubectl file
 
 ```
-sudo mv kubectl /kubectl /usr/local/bin/kubectl
+sudo mv kubectl /usr/local/bin/kubectl
 ```
 
 Check Kubectl version
