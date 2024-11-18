@@ -35,3 +35,62 @@ For the /var filesystem:
 ```
 sudo xfs_growfs /var
 ``
+
+
+
+# INSTALL DOCKER kUBECTL EKSCTL FOR CLUSTER SET-UP
+
+INSTALL DOCKER
+
+```
+curl https://raw.githubusercontent.com/Cheswini0097/docker2/refs/heads/main/installdocker.sh |sudo bash
+```
+
+INSTALL KUBECTL
+
+```
+curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.27.16/2024-09-11/bin/linux/amd64/kubectl
+```
+
+Apply execute permissions to the binary:
+
+```
+chmod +x ./kubectl
+```
+
+Move kubectl file
+
+```
+sudo mv kubectl /kubectl /usr/local/bin/kubectl
+```
+
+Check Kubectl version
+
+```
+kubectl version
+```
+
+Install eksctl 
+
+```
+
+ARCH=amd64
+PLATFORM=$(uname -s)_$ARCH
+```
+
+curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
+```
+
+tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
+```
+
+sudo mv /tmp/eksctl /usr/local/bin
+```
+
+Check the version
+
+```
+
+eksctl version
+```
+
