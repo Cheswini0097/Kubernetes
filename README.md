@@ -75,6 +75,10 @@ ARCH=amd64
 PLATFORM=$(uname -s)_$ARCH
 ```
 
+Download eksctl.
+
+```
+
 curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
 ```
 
